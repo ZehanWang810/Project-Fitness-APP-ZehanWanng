@@ -22,3 +22,6 @@ The UML class diagrams of this project provide a detailed illustration of each c
   - Please write the User Personas and User Stories for me.
   - Write the code in PlantUML. 
   - How to write README
+
+## License
+This project is licensed under the MIT License - see the [LICENSE] file for details.
