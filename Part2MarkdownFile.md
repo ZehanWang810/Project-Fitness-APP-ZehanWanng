@@ -145,6 +145,33 @@ community.observers = [];
 In this example, the external code directly modifies the `observers` array of the Community class, bypassing the `addObserver` and `removeObserver` methods, which breaks encapsulation.
 
 
+Test file:
+CommunityPost.test.js
+This file contains unit tests for the CommunityPost class. The specific test contents are as follows:
+Constructor and methods of the CommunityPost class:
+Test whether the property initialization of the CommunityPost object is correct, including author, content, createdAt, likes, and comments.
+Test whether the addLike method can correctly increase the number of likes of the post.
+Test whether the addComment method can correctly add a comment, and check whether the user and comment content of the comment are correct.
+
+ProgressMonitor.test.js
+This file contains unit tests for the ProgressMonitor class. The test contents include:
+The analyzeTrainingProgress method when there are no records:
+When there are no training records, test whether the analyzeTrainingProgress method will return 'No training records available for analysis.'.
+The analyzeDietProgress method when there are no records:
+When there are no diet records, test whether the analyzeDietProgress method will return 'No diet records available for analysis.'.
+The getComprehensiveProgressReport method:
+When there are training records and diet records, test whether the getComprehensiveProgressReport method can correctly generate a comprehensive progress report, which includes the training progress report and the diet progress report.
+
+PersonalizedPlan.test.js
+This file contains unit tests for the PersonalizedPlan class. The specific test points are as follows:
+The getUserGoal method with valid input:
+Simulate the user input 'Muscle Gain', and test whether the getUserGoal method can correctly return the user's goal.
+The generateTrainingPlan method:
+Simulate the user input 'Muscle Gain', and test whether the generateTrainingPlan method can correctly generate a training plan.
+The generateDietPlan method:
+Simulate the user input 'Muscle Gain', and test whether the generateDietPlan method can correctly generate a diet plan.
+The getFullPersonalizedPlan method:
+Simulate the user input 'Muscle Gain', and test whether the getFullPersonalizedPlan method can correctly generate a complete personalized plan that includes the training plan and the diet plan.
 
 
 GenAI Resources
@@ -157,3 +184,5 @@ Does the code contain SOLID Principles?
 Please help me find the design patterns in the code
 Please help me write hypothetical examples that break down each concept
 Please help me write test file
+
+
