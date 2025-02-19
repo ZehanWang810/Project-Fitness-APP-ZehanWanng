@@ -1,5 +1,4 @@
 # Project-Fitness-APP-ZehanWanng
-# Fitness - App UML Design
 
 This project focuses on the UML design for a fitness - related application. It includes detailed class diagrams, descriptions of classes, their attributes, methods, and the relationships between them.
 
@@ -8,6 +7,9 @@ The goal of this project is to provide a comprehensive UML design for a fitness 
 
 ## Class Diagrams
 The UML class diagrams of this project provide a detailed illustration of each class in the system, their attributes, methods, and the relationships between classes. The class diagram images and relevant links are included in the uploaded document. You can obtain the specific class diagram information by reviewing that document. This will help you have a more intuitive understanding of the structural and functional design of the system.
+
+## Link to mockups:https://cacoo.com/diagrams/kiXXeYdRFSQvTZ8Q/5F23F
+## Link to UML Class Diagram is in pdf file.
 
 ## Acknowledgments
 ### General Resources
